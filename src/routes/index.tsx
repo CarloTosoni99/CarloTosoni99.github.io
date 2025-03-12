@@ -7,7 +7,7 @@ import Presentation from '~/components/presentation/presentation';
 import Duck from '~/components/duck/duck';
 
 
-const localUrlData = 'http://localhost:5173/data/about.json';
+//const localUrlData = 'http://localhost:5173/data/about.json';
 const remoteUrlData = 'https://carlotosoni99.github.io/data/about.json';
 
 export const useDatafetch = routeLoader$(async () => {
@@ -22,7 +22,7 @@ export const useDatafetch = routeLoader$(async () => {
     pre2: string;
     pre3: string;
   }
-});
+})
 
 
 export default component$(() => {

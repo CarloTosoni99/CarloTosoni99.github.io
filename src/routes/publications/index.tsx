@@ -6,7 +6,7 @@ import Topbar from '../../components/topbar/topbar';
 import Pubs from '../../components/pubs/pubs';
 
 
-const localUrlData = 'http://localhost:5173/data/pubs.json';
+//const localUrlData = 'http://localhost:5173/data/pubs.json';
 const remoteUrlData = 'https://carlotosoni99.github.io/data/pubst.json';
 
 export const useDatafetch = routeLoader$(async () => {
@@ -28,7 +28,7 @@ export const useDatafetch = routeLoader$(async () => {
       id: number;
     }];
   };
-});
+})
 
 export default component$(() => {
   const dataPubs = useDatafetch().value;
