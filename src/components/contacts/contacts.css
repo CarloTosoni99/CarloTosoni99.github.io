@@ -1,0 +1,23 @@
+#cont-title {
+    margin: 8vh 0 2vh 0;
+}
+
+#cont-box {
+    padding-top: 0.5em;
+}
+
+#cont-div-linkedin {
+    display: flex;
+    align-items: center;
+    gap: 0.4vw;
+    margin-top: 0.8em;
+}
+
+#linkedInIcon {
+    width: 25px;
+    height: 25px;
+}
+
+#cont-par-linkedin {
+    margin: 0;
+}

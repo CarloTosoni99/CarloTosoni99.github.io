@@ -1,0 +1,35 @@
+.pub {
+    display: flex;
+    align-items: stretch;
+    gap: 2vw;
+    padding: 0.9em;
+}
+
+.pub-img {
+    flex: 1;
+    line-height: 0%;
+    display: block;
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+}
+
+.pub-content {
+    flex: 3.5;
+}
+
+.pub-logo {
+    width: 100%;
+    height: auto;
+}
+
+.pub-content-category {
+    color: black;
+    margin-left: 0.3em;
+    margin-right: 0.5em;
+    font-weight: 400;
+    font-size: 0.95em;
+}
+
+.pub-box {
+    border-width: 3px;
+}

@@ -1,0 +1,25 @@
+
+.duck-div {
+    position: relative;
+    height: 14vh;
+
+    display: flex;
+    transition: margin 12s;
+    transition-timing-function: linear;
+}
+
+.duck-left {
+    margin-left: 5vw;
+}
+
+.duck-right {
+    margin-left: 50vw;
+}
+
+#duck  {
+    position: absolute;
+    bottom: 0;
+
+    height: 105px;
+    width: 105px;
+}

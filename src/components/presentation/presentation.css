@@ -1,0 +1,26 @@
+
+
+#left_dim {
+  flex: 6.5;
+}
+
+#right-dim {
+  flex: 3;
+}
+
+#right-div {
+  padding: 1em;
+  line-height: 0%;
+}
+
+#io {
+  border-radius: 4px;
+  width: 100%;
+  height: auto;
+}
+
+#maindiv {
+  display: flex;
+  align-items: stretch;
+  gap: 2vw;
+}
