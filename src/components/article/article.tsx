@@ -15,7 +15,7 @@ interface article {
 		date: string;
 		doi: string;
 	}
-};
+}
 
 export default component$<article>((props) => {
   useStyles$(style);

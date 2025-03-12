@@ -19,7 +19,7 @@ interface pubs {
       id: number;
     }];
   };
-};
+}
 
 export default component$<pubs>((props) => {
   useStyles$(style);
