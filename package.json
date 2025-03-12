@@ -1,7 +1,7 @@
 {
   "name": "webpage",
   "description": "my personal webpage!",
-  "homepage": "https://CarloTosoni99.github.io/",
+  "homepage": "https://CarloTosoni99.github.ioS",
   "engines": {
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
